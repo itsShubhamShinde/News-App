@@ -1,0 +1,80 @@
+.outerDiv{
+    /* border: 2px solid blue; */
+    height: 100vh;
+    width: 100%;
+}
+
+.headingDiv{
+    /* border: 2px solid red; */
+    height: 10%;
+    width: 100%;
+    background-color:  yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3ch;
+    font-weight: 500;
+}
+.bodyDiv{
+    /* border: 2px solid red; */
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttonDiv{
+    /* border: 2px solid green; */
+    height: 15%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.buttonDiv button{
+    padding: .5rem 1rem;
+    margin-right: 20px;
+    background-color: rgb(253, 253, 77);
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.AnswerDiv{
+    /* border: 2px solid gray; */
+    height: 80%;
+    width: 90%;
+}
+
+.addDetailsOuterDiv{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.buttonHeadingDiv{
+    border: 2px solid red;
+    height: 10%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2ch;
+    font-weight: 500;
+}
+.tableDiv{
+    border:2px solid red;
+    height: 80%;
+    width: 100%;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th,td{
+    /* border: 1px solid; */
+    border-collapse: collapse;
+
+}

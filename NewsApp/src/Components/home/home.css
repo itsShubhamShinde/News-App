@@ -1,0 +1,55 @@
+.homepageOuterDiv{
+    /* border: 2px solid black; */
+    height: 90vh;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsItemOuterDiv{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 70%;
+    overflow-y: scroll;
+}
+.newsItemBox{
+    /* border: 2px solid blue; */
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.imgDiv{
+    /* border: 2px solid black; */
+    height:100%;
+    width:40%;
+}
+.imgDiv img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.textDiv{
+    /* border: 2px solid black; */
+    height:100%;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.textDiv a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.dataNotFoundDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
