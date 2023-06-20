@@ -47,7 +47,7 @@
 }
 
 .addDetailsOuterDiv{
-    border: 2px solid black;
+    border: 2px solid gray;
     height: 100%;
     width: 100%;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: space-between;
 }
 .buttonHeadingDiv{
-    border: 2px solid red;
+    border: 2px solid gray;
     height: 10%;
     width: 20%;
     display: flex;
@@ -65,7 +65,7 @@
     font-weight: 500;
 }
 .tableDiv{
-    border:2px solid red;
+    border:2px solid gray;
     height: 80%;
     width: 100%;
 }
@@ -77,4 +77,33 @@ th,td{
     /* border: 1px solid; */
     border-collapse: collapse;
 
+}
+.UserDisplay{
+    /* border: 2px solid black; */
+    /* box-shadow: 0 0 10px black; */
+    height: 45%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.UserDisplay li{
+     text-decoration: none;
+     outline: none;
+     padding-left: 30px;
+}
+#displayInput{
+    padding: .5rem 1rem;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border:2px solid  black;
+}
+#displayButton{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
 }
